@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+p {
+  margin: 1em 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.banner {
+  background-color: #17A2B8;
+  height: 793px;
+  color: #ffffff;
+  padding-top: 32px;
+}
+
+.menu {
+  margin: auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1140px;
+  font-size: 18px;
+  padding-bottom: 133px;
+}
+
+.header-group {
+  width: 466px;
+  margin: auto;
+  text-align: center;
+}
+
+.logo-box {
+  width: 142px;
+  margin: inherit;
+}
+
+.header-text {
+  margin-bottom: 48px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+
+h2, h3 {
+  text-align: center;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+.header-heading {
+  margin-bottom: 24px;
+}
+
+.registration-button, .registartion-form-button {
+  margin: inherit;
+  display: block;
+  box-sizing: border-box;
+  width: 208px;
+  padding: 15px 52px;
+  border-radius: 4px;
+  background-color: #2F418A;
+}
+
+.registration, .gallery, footer {
+  background-color: #F8F9FA;
+}
+
+.registration {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  min-height: 306px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.registration-information-box {
+  width: 540px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.registration-data-heading {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.registartion-data-container {
+  width: 570px;
+}
+
+.data-box {
+  display: flex;
+  margin-top: 16px;
+}
+
+.data {
+  margin-left: 60px;
+}
+
+.price {
+  margin: auto;
+  max-height: 333px;
+  width: 85.3%;
+  padding: 48px 0;
+  box-sizing: border-box;
+}
+
+.price-header-container {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #DEE2E6;
+  margin-top: 14px;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.table-header {
+  font-weight: 700;
+}
+
+.table-row {
+  display: flex;
+}
+
+.table-cell {
+  width: 33%;
+}
+
+.table-cell:first-child {
+  width: 47%;
+}
+
+.price-rubl::after {
+  content: "\20BD";
+}
+
+.gallery {
+  height: 53%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.gallery-header {
+  padding: 45px 0 35px 0;
+}
+
+.slider {
+  position: absolute;
+  display: flex;
+  opacity: 0.5;
+  bottom: 48px;
+  left: 46vw;
+}
+
+.slider-element {
+  width: 30px;
+  height: 3px;
+  background-color: #FF8A00;
+  margin-right: 8px;
+}
+
+.slider-element:hover {
+  background-color: #ff5e00;
+}
+
+.speakers {
+  min-height: 605px;
+  padding-top: 52px;
+}
+
+.speakers-container {
+  padding-top: 32px;
+  margin: auto;
+  width: 46%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.speaker-pika {
+  text-align: center;
+  width: 19%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 32px;
+  margin-bottom: 24px;
+}
+
+.speaker-img {
+  align-self: center;
+}
+
+.speaker-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.speaker-description {
+  font-style: italic;
+}
+
+footer {
+  height: 150px;
+  text-align: center;
+  padding: 45px 0;
+  box-sizing: border-box;
+}
+
+.footer-copyright-text {
+  font-size: 12px;
+  color:#BABABA;
+}
+
+.registartion-form {
+  font-family: Roboto;
+  width: 404px;
+  height: 252px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  position: relative;
+  padding: 32px 32px 46px 32px;
+  box-sizing: border-box;
+}
+
+.form-header {
+  font-size: 26px;
+  color: #9FA3AB;
+  margin-bottom: 24px;
+}
+
+.form-input {
+  width: 340px;
+  height: 28px;
+  margin-bottom: 16px;
+}
+
+.email {
+  margin-bottom: 24px;
+}
+
+.registartion-form-button {
+  font-family: 'Open Sans';
+  color: #ffffff;
+  padding: 8px 14px 12px 14px;
+  width: 127px;
+  margin: auto;
+}
+
+.close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 16px;
+  height: 15.2px;
+  opacity: 0.6;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 15.2px;
+  width: 2px;
+  background-color: #BEC7CB;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}

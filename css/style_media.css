@@ -1,0 +1,117 @@
+@media (max-width:1200px) and (min-width:600px){
+  .registration {
+    flex-direction: column;
+  }
+
+  .registration-information-box, .registartion-data-container {
+    width: 90%;
+    margin: auto;
+  }
+
+  .registration-information-box {
+    text-align: left;
+  }
+
+  .table-cell {
+    width: 25%;
+  }
+
+  .table-cell:first-child {
+    width: 42%;
+    margin-right: 8%;
+  }
+
+  .speakers-container {
+    width: 100%;
+  }
+
+  .speaker-pika {
+    width: 28%;
+    padding: 0;
+  }
+
+  footer {
+    height: 100px;
+    padding: 20px 0;
+  }
+}
+
+@media (max-width:599px) {
+  .banner {
+    padding-top: 78px;
+    height: 568px;
+  }
+
+  .menu {
+    flex-direction: column;
+    padding: 0 0 0 24px;
+  }
+
+  .hamburger-menu {
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 20px;
+  }
+  
+  .hamburger-menu-bar {
+    width: 25px;
+    height: 2px;
+    margin-bottom: 4px;
+    background-color: #ffffff;
+  }
+
+  .header-group {
+    width: 100%;
+  }
+
+  .registration {
+    min-height: 225px;
+    padding: 24px 15px;
+  }
+
+  .registration-information-box {
+    display: none;
+  }
+
+  .registartion-data-container {
+      width: 90%;
+  }
+
+  .data {
+    margin: 0;
+  }
+
+  .price {
+    max-height: 428px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .price-header-container {
+    text-align: left;
+  }
+
+  .price-header {
+    width: 105%;
+  }
+
+  .gallery {
+    display: none;
+  }
+
+  .speakers {
+    background-color: #F8F9FA;
+    margin-bottom: 24px;
+  }
+
+  .speakers-container {
+    width: 90%;
+  }
+
+  .speaker-pika {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 24px 0;
+  }
+}
