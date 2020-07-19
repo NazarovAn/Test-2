@@ -1,5 +1,21 @@
 const hamburgerMenu = document.querySelector('.hamburger-menu');
 const menu = document.querySelector('.menu');
+const registartionButton = document.querySelector('.registration-button');
+const registartionForm = document.querySelector('.registartion-form');
+const closeButton = document.querySelector('.close');
+const dimmer = document.getElementById('dimmer');
+
+registartionButton.addEventListener('click', (ev) => {
+  ev.preventDefault();
+  registartionForm.classList.remove('hidden');
+  dimmer.style.display = 'block';
+});
+
+closeButton.addEventListener('click', (ev) => {
+  ev.preventDefault();
+  registartionForm.classList.add('hidden');
+  dimmer.style.display = 'none';
+})
 
 function checkScreenWidth() {
   if (screen.width < 600) {
